@@ -10,9 +10,21 @@ The project consists of the following files and directories:
 - 'README.md' — project description and instructions.
 
 ## Description
-The comb function from the math module is used to compute binomial coefficients.
+
+
+
+
+
+## Requirements
+To complete the project, you must have:
+- Python 3.8+
+- Jupyter Notebook
+- 'math'Lib (built into Python)
+
 
 ## Reference
+- [Lady tasting tea experement](https://lisds.github.io/textbook/wild-pandas/fishers_tea.html)
+- [Python math — Mathematical functions 'comb'](https://docs.python.org/3/library/math.html#math.comb)
 - [Readme Driven Development for an A/B testing analysis package](https://e10v.me/tea-tasting-rdd/)
 
 
