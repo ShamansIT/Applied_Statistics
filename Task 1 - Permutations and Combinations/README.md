@@ -28,7 +28,7 @@ Using this formula, we can calculate the total number of possible combinations f
 Since there is only **one way** to guess all 6 cups correctly (the person selects exactly the correct 6 cups), the probability of this event is:
 
 $$
-P(\text{всі правильні}) = \frac{1}{C_{12}^{6}} = \frac{1}{924}
+P(\text{all are correct}) = \frac{1}{C_{12}^{6}} = \frac{1}{924}
 $$
 
 This is an extremely small probability, indicating that guessing all cups correctly by chance is highly unlikely.
@@ -58,7 +58,7 @@ $$
 The probability of guessing exactly 5 cups correctly is:
 
 $$
-P(\text{5 правильних}) = \frac{36}{C_{12}^{6}} = \frac{36}{924} = 0.03896
+P(\text{5 correct}) = \frac{36}{C_{12}^{6}} = \frac{36}{924} = 0.03896
 $$
 
 ### 4. Probability of making no more than one mistake
@@ -66,7 +66,7 @@ $$
 To calculate the probability of making no more than one mistake (either guessing all 6 correctly or exactly 5 correctly), we sum the favorable cases for both:
 
 $$
-\text{Сприятливі комбінації для не більше однієї помилки} = C_6^6 \times C_6^0 + C_6^5 \times C_6^1
+\text{Favorable combinations for no more than one mistake} = C_6^6 \times C_6^0 + C_6^5 \times C_6^1
 $$
 
 This gives us:
@@ -78,7 +78,7 @@ $$
 Thus, the probability of making no more than one mistake is:
 
 $$
-P(\text{не більше однієї помилки}) = \frac{37}{C_{12}^{6}} = \frac{37}{924} = 0.0400
+P(\text{no more than one mistake}) = \frac{37}{C_{12}^{6}} = \frac{37}{924} = 0.0400
 $$
 
 ### 5. Probability of guessing exactly 4 cups correctly
@@ -106,7 +106,7 @@ $$
 The probability of guessing exactly 4 cups correctly is:
 
 $$
-P(\text{4 правильних}) = \frac{225}{C_{12}^{6}} = \frac{225}{924} = 0.2435
+P(\text{4 correct}) = \frac{225}{C_{12}^{6}} = \frac{225}{924} = 0.2435
 $$
 
 ### 6. Probability of making no more than two mistakes
@@ -114,7 +114,7 @@ $$
 To calculate the probability of making no more than two mistakes (i.e., guessing all 6, 5, or 4 correctly), we sum the favorable cases for these events:
 
 $$
-\text{Сприятливі комбінації для не більше двох помилок} = C_6^6 \times C_6^0 + C_6^5 \times C_6^1 + C_6^4 \times C_6^2
+\text{Favorable combinations for no more than two mistakes} = C_6^6 \times C_6^0 + C_6^5 \times C_6^1 + C_6^4 \times C_6^2
 $$
 
 This gives us:
@@ -126,7 +126,7 @@ $$
 Thus, the probability of making no more than two mistakes is:
 
 $$
-P(\text{не більше двох помилок}) = \frac{262}{C_{12}^{6}} = \frac{262}{924} = 0.2831
+P(\text{no more than two mistakes}) = \frac{262}{C_{12}^{6}} = \frac{262}{924} = 0.2831
 $$
 
 ## Conclusions
@@ -135,7 +135,7 @@ $$
 The probability of guessing all 6 cups correctly is extremely low, at:
 
 $$
-P(\text{всі правильні}) = \frac{1}{924} \approx 0.0011
+P(\text{all correct}) = \frac{1}{924} \approx 0.0011
 $$
 
 This shows that it is highly unlikely for a person to guess all 6 cups correctly by chance.
@@ -144,7 +144,7 @@ This shows that it is highly unlikely for a person to guess all 6 cups correctly
 The probability of making no more than one mistake is still quite low, at:
 
 $$
-P(\text{не більше однієї помилки}) = \frac{37}{924} \approx 0.0400
+P(\text{no more than one mistake}) = \frac{37}{924} \approx 0.0400
 $$
 
 This indicates that allowing for one mistake still results in a small probability of success by guessing.
@@ -153,7 +153,7 @@ This indicates that allowing for one mistake still results in a small probabilit
 The probability of making no more than two mistakes is significantly higher, at:
 
 $$
-P(\text{не більше двох помилок}) = \frac{262}{924} \approx 0.2831
+P(\text{no more than two mistakes}) = \frac{262}{924} \approx 0.2831
 $$
 
 This suggests that if we allow for two mistakes, the likelihood of guessing successfully increases to about 28%, which is too high to be considered a valid test of a person's ability to correctly identify the order of tea and milk.
@@ -186,6 +186,8 @@ Contributions are welcome! You can help improve the project by opening an issue 
 - [Lady tasting tea experement](https://lisds.github.io/textbook/wild-pandas/fishers_tea.html)
 - [Python math — Mathematical functions 'comb'](https://docs.python.org/3/library/math.html#math.comb)
 - [The lady tasting tea experiment](https://brainder.org/2015/08/23/the-lady-tasting-tea-and-fishers-exact-test/)
+- [How a tea-tasting test led to a breakthrough in statistics](https://www.irishtimes.com/news/science/how-a-tea-tasting-test-led-to-a-breakthrough-in-statistics-1.3998786)
+- [What Does a Lady Tasting Tea Have to Do with Science?](https://www.kdnuggets.com/2019/05/lady-tasting-tea-science.html)
 - [Readme Driven Development for an A/B testing analysis package](https://e10v.me/tea-tasting-rdd/)
 
 ## Contact Information
