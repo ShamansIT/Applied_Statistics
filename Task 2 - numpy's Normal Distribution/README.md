@@ -47,6 +47,10 @@ Contributions are welcome! You can help improve the project by opening an issue 
 
 ## Reference
 - [Normal Distribution : An Ultimate Guide](https://www.analyticsvidhya.com/blog/2021/05/normal-distribution-an-ultimate-guide/)
+- [numpy.random.normal](https://numpy.org/doc/2.0/reference/random/generated/numpy.random.normal.html)
+- [stats.shapiro](https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.shapiro.html)
+- [matplotlib.pyplot](https://matplotlib.org/stable/api/pyplot_summary.html)
+- [Normal Distribution](https://docs.scipy.org/doc/scipy/tutorial/stats/continuous_norm.html)
 
 
 ## Contact Information
