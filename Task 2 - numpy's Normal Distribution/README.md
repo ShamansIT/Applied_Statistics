@@ -1,9 +1,15 @@
-# Task 2: numpy's Normal Distribution
+# Task 2: Numpy's Normal Distribution
 ![Normal Distribution](https://cdn.analyticsvidhya.com/wp-content/uploads/2021/05/51240maxresdefault.jpg)
 
 **by Serhii Spitsyn**
 
 # Description
+This task checks whether the numpy.random.normal() function correctly generates values ​​from a normal distribution.
+
+## Project Stages:
+- Generate a sample of 100,000 values with a mean of 10.0 and a standard deviation of 3.0.
+- Provide Shapiro-Wilk test using scipy.stats.shapiro() to check the normality of the sample distribution.
+- Constructing a histogram of the obtained values and superimposing on it the corresponding probability density function of the normal distribution.
 
 
 ## Purpose of the Project 
