@@ -85,7 +85,7 @@ Apply the generated normal data to real-world simulations or scenarios that requ
 
 ## Project structure
 The project consists of the following files and directories:
-- 'task2.ipynb' is the main Jupyter Notebook, where calculations and explanations are performed.
+- 'task2_numpy's_Normal_Distribution.ipynb' is the main Jupyter Notebook, where calculations and explanations are performed.
 - 'README.md' — project description and instructions.
 
 
