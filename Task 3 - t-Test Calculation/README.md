@@ -19,6 +19,15 @@ Calculate the t-statistic for the resting heart rates of patients before and aft
 
 
 ## Conclusions
+As conclusions **can be sure of the accuracy of the calculations and the correctness of the test**.
+
+1.	Precision of Manual Calculations
+A very small difference confirms that the manual calculation of the t-statistic was performed correctly and with sufficient accuracy, using formulas for the mean and standard deviation of the differences.
+2.	Reliability of the SciPy library
+Since the scipy.stats result is virtually identical to our manual calculation, this confirms the reliability and accuracy of the SciPy library for statistical tests in Python.
+3.	Machine error
+The difference between calculations can be explained as machine error, which occurs due to the limited precision of floating-point numbers in computing systems. This error is normal and does not affect the results of the analysis.
+
 
 
 ### Final Thoughts
