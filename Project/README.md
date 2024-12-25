@@ -4,9 +4,11 @@
 **by Serhii Spitsyn**
 
 # Description
-
+This project involves analyzing the PlantGrowth dataset, which includes data on plant weights across three groups: a control group (ctrl) and two treatment groups (trt1 and trt2). The analysis employs statistical techniques such as t-tests and ANOVA to determine if there are significant differences between these groups.
 
 ## Project Stages:
+1.	Data Loading: The dataset is loaded and cleaned for analysis.
+2.	Exploratory Data Analysis: Descriptive statistics and visualizations provide an overview of the data.
 
 
 ## Purpose of the Project 
