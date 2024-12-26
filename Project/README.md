@@ -9,16 +9,26 @@ This project involves analyzing the PlantGrowth dataset, which includes data on 
 ## Project Stages:
 1.	Data Loading: The dataset is loaded and cleaned for analysis.
 2.	Exploratory Data Analysis: Descriptive statistics and visualizations provide an overview of the data.
-
+3.	T-Test: A t-test is conducted to compare the mean weights between two treatment groups.
 
 ## Purpose of the Project 
-
+The primary goal of this project is to:
+- Identify significant differences in plant weights between groups.
+- Demonstrate the use of statistical techniques such as t-tests and ANOVA in real-world scenarios.
+- Provide insights into the effects of treatments on plant growth.
 
 ## Methodology
-
+- T-Test: Used to compare means between trt1 and trt2 groups, ensuring assumptions of normality and equal variances are met.
+- ANOVA: Applied to analyze differences among all three groups while controlling for multiple comparisons.
 
 ## Descriptions
-
+- Dataset:
+    - weight: Numeric variable representing the dried weight of plants.
+    - group: Categorical variable representing treatment groups (ctrl, trt1, trt2).
+- T-Test:
+    - Compares trt1 and trt2 to assess statistical significance.
+- ANOVA:
+    - Evaluates differences across ctrl, trt1, and trt2 groups.
 
 ## Conclusions
 
@@ -33,9 +43,15 @@ This project involves analyzing the PlantGrowth dataset, which includes data on 
 
 
 ### Contribution to the project
-
+Contributions are welcome! Please ensure your code adheres to the existing style and structure. Submit pull requests with clear descriptions of changes.
 
 ## Reference
+- Python 3.7 or later
+- Required Libraries:
+    - pandas
+    - scipy
+    - matplotlib
+    - seaborn
 
 
 ## Contact Information
